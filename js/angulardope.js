@@ -201,7 +201,7 @@ function GameModel() {
     this.drugs = [drugsMaster[0]];
     this.upgrades = [];
     this.currencyCode = '$';
-    this.cash = 100;
+    this.cash = 1000000000000000000000000;
     this.totalCashEarned = 0;
     this.treeUpgrades = 0;
     this.dealers = [];
