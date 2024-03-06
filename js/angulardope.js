@@ -119,7 +119,7 @@ function Drug(name, pricePerGram, costToUnlock) {
     this.total = 0;
     this.selected = true;
     this.costToUnlock = costToUnlock;
-    this.totalCash = 0;
+    this.totalCash = 100000000;
 	this.drugUnlock = new DrugUnlock('Research ' + this.name, 'Spend money to research production of a new drug, ' + this.name + '. Your customers will love it!', this.costToUnlock, this.name);
 }
 
