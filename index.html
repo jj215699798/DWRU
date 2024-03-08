@@ -121,7 +121,7 @@
                 <p ng-show="!gameModel.workMode"><strong>Buy cannabis seeds to grow weed. Hire dealers to sell the weed.</strong></p>
                 <div id="current-cash" class="strong">Current cash: 
                 	<span class="current-cash">{{gameModel.cash|money}}</span> 
-                	<span class="glyphicon" ng-class="cashPerSecond > 0 ? 'glyphicon-arrow-up production-header' : 'glypicon-arrow-down muscle-header'"></span> 
+                	<span class="glyphicon" ng-class="cashPerSecond > 1000000 ? 'glyphicon-arrow-up production-header' : 'glypicon-arrow-down muscle-header'"></span> 
                 	<span ng-class="cashPerSecond > 0 ? 'production-header' : 'muscle-header'">{{cashPerSecond|money}} / sec</span>
                 </div>
 				<p class="strong">Total earned {{gameModel.totalCashEarned|money}}</p>
